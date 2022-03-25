@@ -18,10 +18,12 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    color: #d9dcd6;
+    
 }
 
-/* removed second header class h1 seo*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
 
 .header nav {
     padding-top: 15px;
@@ -47,19 +49,18 @@ p {
 }
 
 .meeting {
-    max-height: 800px;
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-section {
+main {
     width: 75%;
-    display: block;
+    display: inline-block;
     margin-left: 20px;
-    float: left;
 }
 
 /* articles and images */
@@ -124,7 +125,6 @@ section {
     float: left;
     margin-right: 25px;
 }
-
 
 #benefits {
     margin-right: 20px;

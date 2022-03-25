@@ -36,3 +36,6 @@ CSS:
 ```
 code structured in order - header, main, articles, etc
 changed header div to nav
+
+## Links
+https://github.com/KVPang/code-refactor
